@@ -1,0 +1,60 @@
+سوفع اقوام بتتبع وتدوين خطوات هذ المشروع هنا 
+
+1
+add PUBLIC_KEY
+android == D:\flutter\mapbox_app\android\app\src\main\res\values\strings.xml
+assets == D:\flutter\mapbox_app\assets\config\.env
+ios == D:\flutter\mapbox_app\ios\Runner\Info.plist (28 to 35) 
+pk.eyJ1IjoidHJ1Y2tnbzMwIiwiYSI6ImNsY3RjaTZ0dDBqYXUzbm14Nmc1bDFteG4ifQ.L7u4lNZibI_PrKqXRVamFA
+
+
+2
+add SECRET_KEY in == android/gradle.properties
+sk.eyJ1IjoidHJ1Y2tnbzMwIiwiYSI6ImNsY3RjeThkdDA2NHEzcG5zaXE0MXZ5ZzYifQ.z7VekP2yXKzzN6yGOQLzLA
+MAPBOX_DOWNLOADS_TOKEN=sk.eyJ1IjoidHJ1Y2tnbzMwIiwiYSI6ImNsY3RjeThkdDA2NHEzcG5zaXE0MXZ5ZzYifQ.z7VekP2yXKzzN6yGOQLzLA
+
+
+3
+search mapbox api
+https://docs.mapbox.com/api/search/geocoding/
+https://docs.mapbox.com/playground/geocoding/
+
+4
+Navigation SDK for AndroidGuidesTurn-by-turn navigationRoute generation
+https://docs.mapbox.com/android/navigation/guides/turn-by-turn-navigation/route-generation/
+
+5
+add packages
+  flutter_mapbox_navigation: ^0.0.26
+  shared_preferences: ^2.0.13
+  flutter_native_splash: ^2.0.4
+  location: ^4.3.0
+  google_fonts: ^2.3.1
+  flutter_dotenv: ^5.0.2
+  dio: ^4.0.4
+  mapbox_gl: ^0.15.0
+  intl: ^0.17.0
+  flutter_rating_bar: ^4.0.0
+
+6 
+main.dart
+
+7
+create splash screen and home screen
+
+8
+mapbox helpers
+
+9
+mapbox account
+username == truckgo30
+password == kAEzGKvH5z6Y5xH#
+https://account.mapbox.com/auth/signup/
+
+10 
+ assets:
+    - assets/icon/
+    - assets/image/
+    - assets/config/
+
+11
